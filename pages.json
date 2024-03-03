@@ -1,0 +1,131 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/sy/sy",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+			
+				"enablePullDownRefresh": false
+				
+			}
+		},	
+		{
+			"path": "pages/HM-search/HM-search",
+			"style": {
+				"navigationBarTitleText": "主页",
+		"navigationStyle": "custom",
+		"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "主页",
+		
+		"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "主页"
+			
+			}
+		},
+		{
+            "path" : "pages/about/about/about",
+            "style" :                                                                                    
+            {
+               "navigationBarTitleText": "？页"
+        
+             
+            }
+            
+        },
+       {
+           "path" : "pages/address/address",
+           "style" :                                                                                    
+           {
+              "navigationBarTitleText": "？页",
+     
+     "enablePullDownRefresh": false
+           }
+           
+       },
+        {
+            "path" : "pages/commodityinformation/commodityinformation/commodityinformation",
+            "style" :                                                                                    
+            {"navigationStyle": "custom",
+				"navigationBarTitleText": "？页",
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/order/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path": "pages/Commodity column/index",
+		    "style" :                                                                                    
+		    {
+				"navigationBarTitleText": "商品栏",
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+		    }
+		    
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "？",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#d2f8ad"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#aec57c",
+		"borderStyle": "black",
+		"backgroundColor": "#fffff5",
+		"list": [
+		{
+			"pagePath": "pages/sy/sy",
+			"iconPath": "static/首页.png",
+			"selectedIconPath": "static/首页(1).png",
+			"text": "首页"
+		},{
+			"pagePath": "pages/Commodity column/index",
+			"iconPath": "static/商品.png",
+			"selectedIconPath": "static/商品(1).png",
+			"text": "商品"
+		},{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/购物车.png",
+			"selectedIconPath": "static/购物车(1).png",
+			"text": "购物车"
+		},  {
+			"pagePath": "pages/commodityinformation/commodityinformation/commodityinformation",
+			"iconPath": "static/表单.png",
+			"selectedIconPath": "static/表单(1).png",
+			"text": "更多"
+		},{
+			"pagePath": "pages/search/search",
+			"iconPath": "static/会员登录.png",
+			"selectedIconPath": "static/会员登录(1).png",
+			"text": "我的"
+		}
+		
+		]
+	},
+
+	
+	
+	"uniIdRouter": {}
+}
